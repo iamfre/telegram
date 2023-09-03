@@ -1,5 +1,6 @@
 <?php
 
 return [
-    'name' => 'Telegram'
+    'name' => 'Telegram',
+    'bot' => env('TELEGRAM_BOT'),
 ];
